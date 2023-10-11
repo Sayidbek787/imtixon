@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html,body{
+    height: 100%;
+}
+.tepa-qism{
+    display: flex;
+    flex-direction: row;
+    padding-top: 27px;
+    gap: 50px;
+    padding-left:80px;
+border: 1px solid rgb(#0283F5);
+    
+}
+.tepa-qism p{
+    padding-top: 27px;
+ 
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.one{
+   
+    padding-left: 250px;
+}
+.tepa-qism button{
+    background-color: #0082F4;
+    border: 0px solid white;
+    border-radius: 6px;
+    width: 161px;
+    height: 42px;
+    color: white;
+    margin-left: 280px;
+    margin-top: 17px;
+}
+
+.tepa-qism button:hover{
+    background-color: #4da3ef;
+}
+.glava{
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    padding-top: 100px;
+    width: 1152px;
+    height: 500px;
+    gap: 300px;
+
+
+}
+.opisaniya{
+    display: flex;
+  padding-left: 75px;
+    flex-direction: column;
+    gap: 20px;
+  
+}
+.slaom{
+    color: #0080FD;
+font-size: 23px;
+font-weight: 400;
+letter-spacing: 2.5px;
+text-transform: uppercase;
+padding-left: -20px;
+
+
+}
+.opisaniya h1{
+    color: #000;
+font-family: Roboto;
+font-size: 60.55px;
+font-weight: 700;
+line-height: 130%;
+width: 531px;
+height: 148px;
+flex-shrink: 0;
+
+}
+.tepa-qism p:hover{
+    color: #0082F4;
+}
+.smart{
+    color: #0080FD;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.5px;
+text-transform: uppercase;
+}
+span{
+    color: #0080FD;
+}
+.Lorem{
+    width: 436px;
+height: 46px;
+flex-shrink: 0;
+color: #000;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+opacity: 0.6;
+}
+.opisaniya button{
+
+    border: 0px solid white;
+    border-radius: 6px;
+    width: 194px;
+height: 63px;
+font-size: 20px;
+  
+}
+.opisaniya button{
+    color: white;
+    background-color: #0082F4;
+}
+.opisaniya button:hover{
+    background-color: #4da3ef;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 188px;
+    height: 63px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 130, 244, 0.1);
+  }
+.knopkalar{
+    display: flex;
+gap: 30px;
+flex-direction: row;
+}
+.birnarsa{
+    display: flex;
+    gap: 120px;
+    padding-left: 75px;
+   padding-top: 100px;
+}
+.acer{
+    display: flex;
+    flex-direction: column;
+gap: 5px;
+padding-top: 100px;
+}
+.acer h3{
+    color: #0082F4;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 2.5px;
+
+}
+.acer h1{
+    width: 496px;
+height: 122px;
+color: #000;
+font-size: 49px;
+font-weight: 700;
+line-height: 130%; 
+}
+.acer p{
+    width: 503px;
+    height: 90px;
+    color: #000;
+font-size: 20px;
+font-weight: 400;
+line-height: 150%; 
+opacity: 0.6;
+}
+.acer button{
+    color: white;
+    background-color: #0082F4;
+    border: 0px solid white;
+    border-radius: 6px;
+    width: 194px;
+height: 63px;
+font-size: 20px;
+}
+.acer button:hover{
+    background-color: #4da3ef;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 100px;
+    padding-top:70px;
+}
+.rocket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.rocket h1{
+    color: #000;
+font-size: 28px;
+font-weight: 500;
+line-height: 130%; 
+}
+.rocket p{
+ width: 324px;
+ color: #000;
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+line-height: 150%; 
+opacity: 0.7;
+}
+.nastroyka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nastroyka h1{
+    color: #000;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 130%; 
+}
+.nastroyka p{
+    width: 324px;
+    color: #000;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 150%; 
+   opacity: 0.7;
+}
+.daftar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.daftar h1{
+    color: #000;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 130%; 
+}
+.daftar p{
+    width: 324px;
+    color: #000;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 150%; 
+   opacity: 0.7;
+}
+.hp{
+    display: flex;
+    justify-content: center;
+    color: #000;
+font-size: 48.44px;
+font-weight: 500;
+line-height: 150%; 
+padding-top: 180px;
+}
+.middle__2{
+    display: flex;
+padding-left: 120px;
+    gap: 500px;
+    padding-top: 140px;
+    flex-direction: row;
+    
+}
+.worker-1{
+    width: 420px;
+height: 283px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #0082F4;
+margin-left: 100px;
+box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.06);
+}
+.bosh-joy__1{
+    width: 62px;
+height: 283px;
+background-color: #0082F4;
+margin-bottom: 100px;
+border-radius: 10px 0 0 10px;
+}
+.text-1{
+    padding-left: 100px;
+   
+
+}
+.bir-1{
+    width: 201px;
+    color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+opacity: 0.7;
+padding-top: 10px;
+margin-top: -40px;
+}
+.bir-2{
+    width: 211px;
+    color: #000;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; 
+opacity: 0.9;
+margin-top: 16px;
+
+}
+.bir-3{
+    width: 161px;
+    color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; 
+opacity: 0.5;
+margin-left: 25px;
+margin-top: 10px;
+}
+.worker-2{
+    width: 420px;
+height: 283px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #0082F4;
+position: relative;
+box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.06);
+margin-left: 650px;
+margin-top: -282px;
+
+}
+.bosh-joy__2{
+    width: 62px;
+height: 283px;
+background-color: #0082F4;
+margin-bottom: 100px;
+border-radius: 10px 0 0 10px;
+padding-top: 10px;
+}
+.text-1{
+    padding-left: 100px;
+
+}
+.bir-1{
+    width: 201px;
+    color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+opacity: 0.7;
+}
+.bir-2{
+    width: 211px;
+    color: #000;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; 
+opacity: 0.9;
+}
+.bir-3{
+    width: 161px;
+    color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; 
+opacity: 0.5;
+margin-top: 10px;
+}
+.tag-qism{
+    width: 1349px;
+height: 338px;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+flex-direction: column;
+background-color: rgba(232, 236, 255, 0.30);
+}
+.tag-qism h1{
+    color: #058AFF;
+text-align: right;
+font-family: Roboto;
+font-size: 31.25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.clacc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 30px;
+    flex-direction: column;
+    
+}
+.kiriting{
+    border: 0px solid ;
+gap: 30px;
+}
+.shkaf{
+ 
+    width: 487px;
+height: 82px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #95c7f3;padding: 15px;
+
+}
+input{
+    background-color: rgba(232, 236, 255, 0.30);  
+  
+}
+.clacc button{
+    margin-left: 150px;
+    width: 92px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #0082F4;
+border: 0px solid #fff;
+color: #fff;
+}
+.clacc button:hover{
+    background-color: #4da3ef;
+}
+.tag-qism--2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row ;
+    gap: 150px;
+}
+.qator h1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.qator p{
+    color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+opacity: 0.7;
+padding-top: 15px;
+
+}
+.qator-2{
+    margin-top: 35px;
+}
+.qator-2 h1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.qator-2 p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.7;
+    padding-top: 15px;
+
+}
+.tag-qism--3{
+    background: linear-gradient(180deg, #058AFF 0%, rgba(57, 55, 206, 0.87) 97.91%);
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.tag-qism--3 button{
+    background-color: #fff;
+    color: #0082F4;
+    border: 0px solid #fff;
+    border-radius: 10px;
+    width: 131px;
+height: 52px;
+flex-shrink: 0;
+}
+button p{
+    font-size: 20px;
+    font-weight: 400;
+}
